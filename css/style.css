@@ -223,6 +223,39 @@ section {
 
 /* header section end */
 
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+#closer {
+  position: fixed;
+  top: 5rem;
+  right: 4rem;
+  font-size: 5rem;
+  cursor: pointer;
+  z-index: 10000;
+  color: #50473e;
+  -webkit-animation: rotate 0.4s linear 0.4s backwards;
+  animation: rotate 0.4s linear 0.4s backwards;
+  display: none;
+}
+
+#closer:hover{
+    color: #9e7464;
+}
+
 /* navbar start */
 
 /* navbar end */
