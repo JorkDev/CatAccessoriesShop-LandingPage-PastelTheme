@@ -1,66 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
 
     <!-- remix icon cdn link  -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
+  <body>
+    <header class="header">
+      <a href="home.html" class="logo"
+        ><i class="ri-store-2-line"></i> Mephisture
+      </a>
 
-<body>
+      <form action="#" class="search-form">
+        <input type="search" placeholder="Search here" id="search-box" />
+        <label for="search-box" class="ri-search-line"></label>
+      </form>
 
-    <!-- header section starts  -->
+      <div class="icons">
+        <div id="menu-btn" class="ri-menu-line"></div>
+        <div id="search-btn" class="ri-search-line"></div>
+        <div id="cart-btn" class="ri-shopping-cart-line"></div>
+        <div id="login-btn" class="ri-user-line"></div>
+      </div>
+    </header>
 
-    <!-- header section ends  -->
+    <div id="closer" class="ri-close-line"></div>
 
-
-    <!-- closer btn  -->
-
-
-    <!-- navbar start  -->
-
-    <!-- navbar end  -->
-
+    <nav class="navbar">
+      <a href="home.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="team.html">Team</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
     <!-- shopping cart start  -->
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img src="image/cart-img-1.jpg" alt="" />
+        <div class="content">
+          <h3>Modern Furniture</h3>
+          <span class="quantity">1</span>
+          <span class="multiply">x</span>
+          <span class="price">$140</span>
+        </div>
+      </div>
 
-    <!-- shopping cart end  -->
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img src="image/cart-img-2.jpg" alt="" />
+        <div class="content">
+          <h3>Modern Furniture</h3>
+          <span class="quantity">1</span>
+          <span class="multiply">x</span>
+          <span class="price">$140</span>
+        </div>
+      </div>
 
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img src="image/cart-img-3.jpg" alt="" />
+        <div class="content">
+          <h3>Modern Furniture</h3>
+          <span class="quantity">1</span>
+          <span class="multiply">x</span>
+          <span class="price">$140</span>
+        </div>
+      </div>
 
-    <!-- login form start  -->
+      <div class="box">
+        <i class="ri-close-line close-icon"></i>
+        <img src="image/cart-img-4.jpg" alt="" />
+        <div class="content">
+          <h3>Modern Furniture</h3>
+          <span class="quantity">1</span>
+          <span class="multiply">x</span>
+          <span class="price">$140</span>
+        </div>
+      </div>
 
-    <!-- login form end  -->
+      <h3 class="total">TotaL: <span>$560.00</span></h3>
+      <a href="#" class="btn">Checkout Cart</a>
+    </div>
 
+    <div class="login-form">
+      <form action="#">
+        <h3>Login Form</h3>
+        <input type="email" placeholder="Enter your E-mail" class="box" />
+        <input type="password" placeholder="Enter your Password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Remember Me</label>
+        </div>
+        <input type="submit" value="Login Now" class="btn" />
+        <p>Forget Password? <a href="#">Click here.</a></p>
+        <p>Don't have an account? <a href="#">Create now.</a></p>
+      </form>
+    </div>
 
     <!-- heading section start -->
 
     <!-- heading section end -->
 
-
     <!-- about section start -->
 
     <!-- about section end -->
 
-
     <!-- services section start -->
 
     <!-- services section end -->
-
-
-
-
-
 
     <!-- footer section start  -->
 
@@ -68,7 +135,5 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
