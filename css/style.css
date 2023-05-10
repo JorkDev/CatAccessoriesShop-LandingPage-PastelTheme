@@ -246,7 +246,7 @@ section {
   font-size: 5rem;
   cursor: pointer;
   z-index: 10000;
-  color: #50473e;
+  color: #5e473e;
   -webkit-animation: rotate 0.4s linear 0.4s backwards;
   animation: rotate 0.4s linear 0.4s backwards;
   display: none;
@@ -409,14 +409,13 @@ section {
   position: fixed;
   top: 1.5%;
   bottom: 1.5%;
-  right: -101%;
+  /* right: -101%; */
+  right: 0;
   z-index: 1000;
   width: 35rem;
   /* height: 100vh; */
   background: #f0e8e4;
   padding: 2rem;
-  padding-top: 8rem;
-  overflow-y: scroll;
   margin: 2%;
   border-radius: 3rem;
   display: -webkit-box;
@@ -424,7 +423,9 @@ section {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -458,6 +459,47 @@ section {
   margin: 0.7rem 0;
   border-radius: 0.75rem;
   background: transparent;
+}
+
+.login-form form .box::placeholder {
+  color: #845f51;
+}
+
+.login-form form .remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flexbox-align: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-form form .remember label {
+  padding: 1rem 0;
+  cursor: pointeR;
+  font-size: 1.5rem;
+  color: #b58d7e;
+}
+
+.login-form form .btn {
+  width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.login-form form p {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  color: #b58d7e;
+}
+
+.login-form form p a {
+  color: #5e473e;
+}
+
+.login-form form p a:hover {
+  text-decoration: underline;
 }
 
 /* login form end */
