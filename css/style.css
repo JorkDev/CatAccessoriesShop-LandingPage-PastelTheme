@@ -403,9 +403,62 @@ section {
   text-align: center;
 }
 
-/* shopping cart end */
-
 /* login form start */
+
+.login-form {
+  position: fixed;
+  top: 1.5%;
+  bottom: 1.5%;
+  right: -101%;
+  z-index: 1000;
+  width: 35rem;
+  /* height: 100vh; */
+  background: #f0e8e4;
+  padding: 2rem;
+  padding-top: 8rem;
+  overflow-y: scroll;
+  margin: 2%;
+  border-radius: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.login-form.active {
+  right: 0;
+  -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.4s liner;
+  transition: 0.4s linear;
+}
+
+.login-form form {
+  padding: 1.7rem;
+  border: 0.1rem solid #caab9f;
+  border-radius: 2rem;
+}
+
+.login-form form h3 {
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+  color: #5e473e;
+}
+
+.login-form form .box {
+  width: 100%;
+  text-transform: none;
+  font-size: 1.5rem;
+  color: #5e473e;
+  padding: 1rem 1.2rem;
+  border: 0.1rem solid #caab9f;
+  margin: 0.7rem 0;
+  border-radius: 0.75rem;
+  background: transparent;
+}
 
 /* login form end */
 
