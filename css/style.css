@@ -409,8 +409,8 @@ section {
   position: fixed;
   top: 1.5%;
   bottom: 1.5%;
-  /* right: -101%; */
-  right: 0;
+  right: -101%;
+  /* right: 0; */
   z-index: 1000;
   width: 35rem;
   /* height: 100vh; */
