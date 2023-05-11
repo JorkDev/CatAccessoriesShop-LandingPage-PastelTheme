@@ -7,8 +7,11 @@ Features
 * Contact form
 * Social media links
 * Search bar
+* Multiple pages: [ Home, About, Team, Shop, Blog, Contact ] 
+
 
 Preview:
+
 ![Mephisto Preview Image](https://cdn.discordapp.com/attachments/841197221578801172/1106350551073042522/preview.jpg)
 
 
