@@ -1019,6 +1019,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
+
 /* Team Page End Section */
 
 /* blog page start */
