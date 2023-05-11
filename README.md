@@ -18,5 +18,5 @@ Preview:
 Getting Started
 To get started, clone the repository and install the dependencies:
 
-git clone https://github.com/JorkDev/CatAccessoriesShop-LandingPage-PastelTheme.git
+git clone https://github.com/JorkDev/CatAccessoriesShop-LandingPage-PastelTheme.git<br>
 cd CatAccessoriesShop-LandingPage-PastelTheme
