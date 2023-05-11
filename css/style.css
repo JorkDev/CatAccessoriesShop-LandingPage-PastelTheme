@@ -892,7 +892,7 @@ section {
   transform: translateY(-3px);
 }
 
-..services .box-container .box img {
+.services .box-container .box img {
   font-size: 8rem;
   margin-bottom: 1rem;
 }
