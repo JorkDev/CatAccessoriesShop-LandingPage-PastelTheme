@@ -833,7 +833,7 @@ section {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 6rem;
   margin: 2%;
   border-radius: 3rem;
   background-color: #f0e8e4;
